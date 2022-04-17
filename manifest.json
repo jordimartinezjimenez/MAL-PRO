@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "MAL PRO",
+    "version": "1.0",
+    "description": "MyAnimeList extension for Chrome",
+    "author": "jordimartinezjimenez",
+    "icons": {
+        "16": "icons/huey-16.png",
+        "48": "icons/huey-48.png",
+        "128": "icons/huey-128.png"
+    },
+    "background": {
+        "service_worker": "script.js"
+    },
+    "action": {
+        "default_icon": "icons/huey.png",
+        "default_title": "MAL PRO",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab"
+    ]
+}
